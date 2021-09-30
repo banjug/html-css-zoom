@@ -8,6 +8,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* sezione main  */
 main {
     height: calc(100vh - 100px);
@@ -113,6 +117,14 @@ nav div {
 
 nav div div {
     padding: 0 15px;
+}
+
+nav a {
+    color: #dcdcdc;
+}
+
+nav a:hover {
+    color: #ffffff;
 }
 
 nav i {
