@@ -3,3 +3,39 @@
     margin: 0;
     padding: 0;
 }
+
+/* sezione main  */
+main {
+    height: calc(100vh - 100px);
+
+    /* debug */
+    background-color: chartreuse;
+}
+
+
+
+
+/* sezione footer */
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* debug */
+    background-color: cadetblue;
+}
+
+nav div {
+    display: flex;
+}
+
+nav div div {
+    width: 50px;
+    height: 50px;
+    background-color: cyan;
+
+    /* forse da sostituire con padding  */
+    margin: 0 10px;
+}
