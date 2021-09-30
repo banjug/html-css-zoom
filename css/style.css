@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* sezione main  */
 main {
     height: calc(100vh - 100px);
@@ -34,7 +38,6 @@ main section {
 }
 
 main section div {
-    background-color: cyan;
     height: 100%;
 
 }
@@ -46,11 +49,23 @@ main section div {
 }
 
 .arrow .page-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-    /* debug */
-    height: 50px;
-    width: 50px;
-    background-color: darkgreen;
+    font-size: 50px;
+    padding: 0 10px;
+    color: gray;
+}
+
+.arrow .page-arrow span {
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+#active-arrow {
+    color: #2ebaff;
 }
 
 /* immagini */
@@ -84,12 +99,12 @@ main section div {
 
 nav {
     height: 100px;
+    color: #dcdcdc;
+    background-color: #222326;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* debug */
-    background-color: cadetblue;
 }
 
 nav div {
@@ -97,10 +112,29 @@ nav div {
 }
 
 nav div div {
-    /* width: 50px;
-    height: 50px; */
-    background-color: cyan;
+    padding: 0 15px;
+}
 
-    /* forse da sostituire con padding  */
-    margin: 0 10px;
+nav i {
+    padding: 10px 0;
+    font-size: 26px;
+}
+
+nav .fa-chevron-up {
+    font-size: 17px;
+}
+
+nav .icons-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#close {
+    height: 100%;
+    background-color: #4a4b4d;
+    color: red;
+
+    display: flex;
+    align-items: center;
 }
