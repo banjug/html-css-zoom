@@ -7,11 +7,41 @@
 /* sezione main  */
 main {
     height: calc(100vh - 100px);
-
-    /* debug */
-    background-color: chartreuse;
+    background-color: #000;
 }
 
+main section {    
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+main section div {
+    background-color: cyan;
+    height: 100%;
+
+}
+
+.arrow {
+    width: 5%;
+}
+
+#portraits {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    padding: 0;
+    overflow: scroll;
+}
+
+    #portraits .photo {
+        width: 240px;
+        height: 135px;
+        background-color: darkgoldenrod;
+        border: solid 1px white;
+    }
 
 
 
