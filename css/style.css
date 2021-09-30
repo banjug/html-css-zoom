@@ -8,6 +8,22 @@
 main {
     height: calc(100vh - 100px);
     background-color: #000;
+    position: relative;
+}
+
+#view-btns {
+    background-color: darkgrey;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#view-btns .view-btn {
+    height: 20px;
+    width: 50px;
+    background-color: darkkhaki;
+    margin: 0 10px;
+    display: inline-block;
 }
 
 main section {    
