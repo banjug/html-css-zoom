@@ -24,19 +24,30 @@ main section div {
 }
 
 .arrow {
-    width: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.arrow .page-arrow {
+
+    /* debug */
+    height: 50px;
+    width: 50px;
+    background-color: darkgreen;
 }
 
 #portraits {
     width: 85%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between ;
+    justify-content: space-evenly ;
     padding: 0;
     overflow: scroll;
 }
 
     #portraits .photo {
+
+        /* debug */
         width: 240px;
         height: 135px;
         background-color: darkgoldenrod;
