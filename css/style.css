@@ -175,8 +175,15 @@ nav #user-number {
 #close {
     height: 100%;
     background-color: #4a4b4d;
-    color: red;
 
     display: flex;
     align-items: center;
+}
+
+#close a {
+    color: #ff0000;
+}
+
+#close a:hover {
+    color: #ff5959;
 }
