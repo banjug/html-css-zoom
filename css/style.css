@@ -58,7 +58,7 @@ main section div {
     width: 85%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly ;
+    justify-content: space-between ;
     padding: 0;
     overflow: scroll;
 }
@@ -68,13 +68,14 @@ main section div {
         /* debug */
         width: 240px;
         height: 135px;
+        padding: 10px;
         background-color: darkgoldenrod;
     }
 
     #portraits .photo img {
         object-fit: cover;
         max-width: 100%;
-        padding: 10px;
+        /* padding: 10px; */
     }
 
 
