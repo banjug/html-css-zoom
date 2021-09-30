@@ -20,18 +20,24 @@ main {
 }
 
 #view-btns {
-    background-color: darkgrey;
     position: fixed;
     top: 0;
     right: 0;
 }
 
 #view-btns .view-btn {
-    height: 20px;
-    width: 50px;
-    background-color: darkkhaki;
-    margin: 0 10px;
+    background-color: #222326;
+    margin: 8px 5px 0 0;
+    padding: 5px 10px;
     display: inline-block;
+}
+
+#view-btns a {
+    color: #dcdcdc;
+}
+
+#view-btns a:hover {
+    color: #ffffff;
 }
 
 main section {    
