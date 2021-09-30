@@ -85,7 +85,7 @@ main section div {
     flex-wrap: wrap;
     justify-content: space-between ;
     padding: 0;
-    overflow: scroll;
+    overflow-y: auto;
 }
 
     #portraits .photo {
@@ -93,14 +93,30 @@ main section div {
         /* debug */
         width: 240px;
         height: 135px;
-        padding: 10px;
-        background-color: darkgoldenrod;
+        margin: 10px;
+        position: relative;
     }
 
     #portraits .photo img {
         object-fit: cover;
-        max-width: 100%;
+        width: 100%;
+        height: 100%;
         /* padding: 10px; */
+    }
+
+    .label {
+        color: #ffffff;
+        font-size: 15px;
+        padding: 3px;
+        background-color: rgba(0, 0, 0, .5);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 10;
+    }
+
+    .active-speaker {
+        border: 5px solid #f7fc8b;
     }
 
 
@@ -146,6 +162,10 @@ nav .icons-flex{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+nav .fa-desktop {
+    color: #4bc800;
 }
 
 #close {
