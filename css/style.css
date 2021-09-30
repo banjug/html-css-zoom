@@ -14,7 +14,7 @@ a {
 
 /* sezione main  */
 main {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     background-color: #000;
     position: relative;
 }
@@ -124,7 +124,7 @@ main section div {
 /* sezione footer */
 
 nav {
-    height: 100px;
+    height: 80px;
     color: #dcdcdc;
     background-color: #222326;
 
@@ -166,6 +166,10 @@ nav .icons-flex{
 
 nav .fa-desktop {
     color: #4bc800;
+}
+
+nav #user-number {
+    padding: 10px 5px;
 }
 
 #close {
